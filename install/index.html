@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Roboto Light'), local('Roboto-Light'), url(roboto.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+@font-face {
+  font-family: 'Roboto Mono';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto Mono'), local('RobotoMono-Regular'), url(roboto-mono.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+body {
+	font-family: 'Roboto';
+	color:#FAFAFA;
+	background: #455A64;
+}
+h1 {
+	font-weight: 300;
+}
+h2 {
+	font-weight: 300;
+}
+p {
+	font-size: 15;
+}
+a {
+	color:#ff1744;
+}
+.code {
+	font-family: 'Roboto Mono';
+	background: #546E7A;
+}
+</style>
+</head>
+<body>
+<h1>Orange County Meshnet</h1>
+<h2>Installation:</h2>
+<p>Our Infrastructure depends on each user to provide connections to their neighboors or the network won't function. <br><h2>By operating system</h2>
+<ul>
+<li><a href='https://github.com/cjdelisle/cjdns'>Debian/Ubuntu/Fedora/RHEL/OS X/OpenBSD/FreeBSD</a></li>
+<li><a href='https://wiki.archlinux.org/index.php/Cjdns'>Arch Linux</a></li>
+<li><a href='http://www.santacruzmesh.net/installer.html'>Windows</a></li>
+</ul>
+<br><h2>Router</h2><a href='https://openwrt.org/'>Install Open-WRT</a> and then <a href='https://www.open-mesh.org/projects/batman-adv/wiki/Batman-adv-openwrt-config-sophisticated'>install B.A.T.M.A.N.</a>! Then install <a href='https://github.com/cjdelisle/cjdns'>CJDns</a> and connect with a neighboor and our public peers!<br><br></p>
+<hr>
+<h2>Public peers</h2>
+<p class='code'>
+	"68.96.88.249:46242":{
+        "contact":"kylerschin@gmail.com",
+        "login":"default-login",
+        "password":"1xbcjwq85z5qwmhjx1kclsx390yjl36",
+        "peerName":"glitchedpixels-server",
+        "publicKey":"p0j807r0cqsmm690wrbvljtxgkunn369hw9wknly307z6lhsj2w0.k"
+}
+</p>
+<p>
+More peers coming soon...
+</p>
+<hr>
+<a href='mailto:meshnetoc@gmail.com'><p>Contact us if you wanna do something!!</p></a>
+
+</body>
+</html>
